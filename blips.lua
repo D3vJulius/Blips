@@ -1,12 +1,11 @@
 local blips = {
-
+    
     {title="Policestation", colour=29, id=60, x=436.811, y=-982.757, z=30.6986}
     -- Add more blips here 
     -- Example: {title="title", colour=, id=, x=, y=-, z=}
 }
   
     Citizen.CreateThread(function()
-    
       for _, julius in pairs(blips) do
         julius.blip = AddBlipForCoord(julius.x, julius.y, julius.z)
         SetBlipSprite(julius.blip, julius.id)
