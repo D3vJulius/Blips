@@ -1,6 +1,7 @@
 local blips = {
 
-    {title="Policestation", colour=29, id=60, x=436.811, y=-982.757, z=30.6986},
+        -- Example: {title="title", colour=, id=, x=, y=-, z=}
+    {title="Policestation", colour=29, id=60, x=436.811, y=-982.757, z=30.6986}
     -- Add more blips here
     }
     
